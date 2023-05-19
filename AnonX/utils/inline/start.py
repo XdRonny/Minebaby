@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+                text="● ᴀᴅᴅ ᴇʟꜱᴇ ʏᴏᴜ ɢᴀʏ ●",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="ʜᴇʟᴩ",
+                text="● ʜᴇʟᴩ ●",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
+                text="● sᴇᴛᴛɪɴɢs ●", callback_data="settings_helper"
             ),
         ],
      ]
@@ -30,13 +30,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+                text="● ᴀᴅᴅ ᴇʟꜱᴇ ʏᴏᴜ ɢᴀʏ ●",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="ʜᴇʟᴩ", callback_data="settings_back_helper"
+                text="● ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ ●", callback_data="settings_back_helper"
             )
         ],
         [
@@ -44,13 +44,21 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="❣ sᴜᴩᴩᴏʀᴛ ❣", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="🥀 ᴍᴀɪɴᴛᴀɪɴᴇʀ 🥀", user_id=OWNER
+                text="● ᴅᴇᴠᴇʟᴏᴘᴇʀ ●", user_id=OWNER
             )
-        ],
+           ],
         [
             InlineKeyboardButton(
-                text="✨ sᴏᴜʀᴄᴇ ✨", url=config.UPSTREAM_REPO
-            )
+                text="● ʀᴇᴘᴏ ●", urlurl=f"https://t.me/Dairy_dash".
+            ),
+        ],
+          [  
+            InlineKeyboardButton(
+                text="● ᴀʙᴏᴜᴛ ●", url=f"https://graph.org/%F0%9D%95%8C%F0%9D%95%84%F0%9D%95%80%F0%93%86%A9%F0%93%86%AA-05-19",
+            ),
+            InlineKeyboardButtonk(
+               text="● ʀᴇᴘᴏ ●", url=f"https://t.me/Dairy_dash",
+            ), 
         ],
      ]
     return buttons
