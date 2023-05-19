@@ -49,15 +49,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
            ],
         [
             InlineKeyboardButton(
-                text="● ʀᴇᴘᴏ ●", urlurl=f"https://t.me/Dairy_dash".
-            )
-        ],
-          [  
-            InlineKeyboardButton(
-                text="● ᴀʙᴏᴜᴛ ●", url=f"https://graph.org/%F0%9D%95%8C%F0%9D%95%84%F0%9D%95%80%F0%93%86%A9%F0%93%86%AA-05-19",
-            )
-            InlineKeyboardButtonk(
-               text="● ʀᴇᴘᴏ ●", url=f"https://t.me/Dairy_dash",
+                text="● ʀᴇᴘᴏ ●", urlurl=f"https://t.me/Dairy_dash"
             ), 
         ],
      ]
