@@ -25,7 +25,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/XdRonny/AnonXMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Bots_Hub_ll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https//t.me/BotsHub1")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Daisy_Support_chat")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/76cf60eb6c5c6f9a02582.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/ddbee938d6123c36caefd.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/fade0f1f2bc5833f3e274.jpg",
+    "https://telegra.ph//file/204e322e18f7ccd047b30.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/fade0f1f2bc5833f3e274.jpg"
+            PING_IMG_URL = "https://telegra.ph//file/204e322e18f7ccd047b30.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/76cf60eb6c5c6f9a02582.jpg"
+            START_IMG_URL = "https://telegra.ph//file/ddbee938d6123c36caefd.jpg"
